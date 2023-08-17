@@ -8,8 +8,6 @@ Houlun Chen, Xin Wang\*, Xiaohan Lan, Hong Chen, Xuguang Duan, Jia Jia\*, Wenwu 
 
 ![framework](figures/framework.png)
 
-[toc]
-
 ## Abstract
 
 Temporal Sentence Grounding aims to retrieve a video moment given a natural language query. Most existing literature merely focuses on visual information in videos without considering the naturally accompanied audio which may contain rich semantics. The few works considering audio simply regard it as an additional modality, overlooking that: i) it's non-trivial to explore consistency and complementarity between audio and visual; ii) such exploration requires handling different levels of information densities and noises in the two modalities. To tackle these challenges, we propose **A**daptive **D**ual-branch **P**romoted **N**etwork (ADPN) to exploit such consistency and complementarity: i) we introduce a dual-branch pipeline capable of jointly training visual-only and audio-visual branches to simultaneously eliminate inter-modal interference; ii) we design **T**ext-**G**uided **C**lues **M**iner (TGCM) to discover crucial locating clues via considering both consistency and complementarity during audio-visual interaction guided by text semantics; iii) we propose a novel curriculum-based denoising optimization strategy, where we adaptively evaluate sample difficulty as a measure of noise intensity in a self-aware fashion. Extensive experiments show the state-of-the-art performance of our method.
