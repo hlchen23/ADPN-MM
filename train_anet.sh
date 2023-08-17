@@ -1,0 +1,11 @@
+python main.py --task activitynet \
+                --mode train \
+                --char_dim 100 \
+                --gpu_idx 5 \
+                --epochs 300 \
+                --init_lr 0.0005 \
+                --batch_size 64 \
+                --rho_th 0.3 \
+                --s_v_th 0.5 \
+                --drop_rate 0.3 \
+                --suffix act
