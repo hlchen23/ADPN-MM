@@ -6,7 +6,7 @@ Houlun Chen, Xin Wang\*, Xiaohan Lan, Hong Chen, Xuguang Duan, Jia Jia\*, Wenwu 
 
 \* Corresponding authors.
 
-![framework](figures/framework_small.png)
+![framework](figures/framework_small.jpg)
 
 ## Abstract
 
