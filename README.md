@@ -99,13 +99,11 @@ We follow the repo [VSLNet](https://github.com/26hzhang/VSLNet) for the code-run
 If you feel this repo is helpful to your research, please cite our work.
 
 ```
-@inproceedings{10.1145/3581783.3612504,
-    author = {Chen, Houlun and Wang, Xin and Lan, Xiaohan and Chen, Hong and Duan, Xuguang and Jia, Jia and Zhu, Wenwu},
-    title = {Curriculum-Listener: Consistency- and Complementarity-Aware Audio-Enhanced Temporal Sentence Grounding},
-    year = {2023},
-    publisher = {Association for Computing Machinery},
-    doi = {10.1145/3581783.3612504},
-    booktitle = {Proceedings of the 31th ACM International Conference on Multimedia},
-    pages = {}
+@inproceedings{chen2023curriculum,
+  title={Curriculum-Listener: Consistency-and Complementarity-Aware Audio-Enhanced Temporal Sentence Grounding},
+  author={Chen, Houlun and Wang, Xin and Lan, Xiaohan and Chen, Hong and Duan, Xuguang and Jia, Jia and Zhu, Wenwu},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  pages={3117--3128},
+  year={2023}
 }
 ```
